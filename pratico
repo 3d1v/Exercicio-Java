@@ -1,0 +1,31 @@
+    *Escreva um  program a que converta um a tem peratura em  graus 
+Celsius para Fahrenheit. Utilize variáveis para representar os valores 
+das tem peraturas e im prim a no console o valor convertido de 
+Celsius para Fahrenheit.
+* 
+• Dica: A fórm ula para converter tem peraturas de graus Celsius para 
+Fahrenheit é: (tem peratura * 1.8) + 32.
+* 
+• Depois de finalizar, testar e conferir que seu program a foi 
+executado com  sucesso, crie um a variável inteira para exibir a 
+tem peratura em  Fahrenheit sem  casas decim ais. Lem bre-se que 
+provavelm ente você precisará fazer um  casting de valores.
+
+public static void main(String[] args) {
+      
+        Scanner teclado = new Scanner (System.in); 
+              
+        System.out.println("insira a temperatura");
+        int c= teclado.nextInt();
+        
+        double f= (c * 1.8) + 32;
+        
+        System.out.println(" a temperatura de f convertida celscius é "+f);
+        
+        double numDouble=  f;
+        int numInteiro= (int)f; //Casting explicito para converter uma variavel de valor double para um varriavel de valor inteiro 
+        
+        System.out.println(""+numInteiro);
+Scanner.closer(); // fechei meu Scanner 
+    }
+}
