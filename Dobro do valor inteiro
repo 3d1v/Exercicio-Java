@@ -1,0 +1,20 @@
+/* Faça um programa que leia um valor inteiro qualquer e ao final escreva o dobro do valor lido. Veja o exemplo do programa executado:
+
+Digite um valor inteiro: 23
+O dobro do valor digitado é: 46 */
+
+public static void main (String[] args){
+Scanner insert = new Scanner(System.in);
+
+System.out.println(" digite um valor: ");
+int numero = insert.nextInt();
+int result= 2* numero;
+System.out.println(" o dobro do valor "+numero+"é "+result);
+
+
+
+
+
+insert.close();
+}
+}
