@@ -1,0 +1,23 @@
+/* ⦁ Faça um programa que leia dois valores para as variáveis ​​A e B, fazendo a troca dos valores dos valores de forma que a variável A passe a possuir o valor da variável B e que a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.
+Veja o exemplo abaixo de como o programa deve ser executado uma vez:
+
+Digite o primeiro valor: 45
+Digite o segundo valor: 23
+Os valores são: 23 e 45
+
+*/
+
+public static void main (String[] args){
+Scanner insert = new Scanner(System.in);
+
+System.out.println("digite o primeiro valor: ");
+int num1 = insert.nextInt();
+
+System.out.println("digite o segundo valor: ");
+int num2 = insert.nextInt();
+
+System.out.println(" Os valores digitados são "+num2+" e "+num1);
+
+insert.close();
+}
+}
