@@ -1,0 +1,24 @@
+/*⦁ Faça um programa que leia dois valores inteiros. Apresente-os no monitor depois de digitalizados.
+Veja o exemplo abaixo de como o programa deve ser executado uma vez:
+
+Digite o primeiro valor: 23
+Digite o segundo valor: 56
+Os valores digitados são: 23 e 56 */
+
+public static void main (String[] args){
+Scanner insert = new Scanner(System.in);
+
+System.out.println(" digite o primeiro valor: ");
+int numero1 = insert.nextInt();
+
+System.out.println(" digite o segundo valor ");
+int numero2 = insert.nextInt();
+
+System.out.println(" os valores digitados são: "+ numero1+ " e "+numero2);
+
+
+
+
+insert.close();
+}
+}
