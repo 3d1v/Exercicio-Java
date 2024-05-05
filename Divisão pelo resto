@@ -1,0 +1,23 @@
+/* ⦁ Faça um programa que leia um valor qualquer, calcule e escreva o resto inteiro da divisão desse valor lido pelo valor 3.
+Veja o exemplo abaixo de como cair o programa após ser executado uma vez:
+
+Digite um valor inteiro: 23
+O resto de 23 / 3 é igual a: 2
+*/
+
+public static void main (String[] args){
+Scanner insert = new Scanner(System.in);
+
+System.out.println(" digite um valor qualquer: ");
+int num1 = insert.nextInt();
+
+int div = num1%3;
+
+System.out.println("o resto de "+num1+" é "+div);
+
+
+
+insert.close();
+}
+}
+
